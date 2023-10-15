@@ -1,11 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import styles from "@/styles/Home.module.css";
 
-const inter = Inter({ subsets: ['latin'] })
+import "katex/dist/katex.min.css";
+import { InlineMath, BlockMath } from "react-katex";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const inlineFormula = "\\cos (2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta";
+  const blockFormula = `\\frac{n!}{k!(n-k)!} = \\binom{n}{k}`;
+
   return (
     <>
       <Head>
@@ -17,6 +23,10 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
+            Inline formula: <InlineMath math={inlineFormula} />
+          </p>
+          <BlockMath math={blockFormula} />
+          <p>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.js</code>
           </p>
@@ -26,7 +36,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
+              By{" "}
               <Image
                 src="/vercel.svg"
                 alt="Vercel Logo"
@@ -110,5 +120,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }
