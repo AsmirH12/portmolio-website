@@ -6,11 +6,13 @@ import styles from "@/styles/Home.module.css";
 import "katex/dist/katex.min.css";
 import { InlineMath, BlockMath } from "react-katex";
 
+import MathJax from "react-mathjax";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const inlineFormula = "\\cos (2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta";
-  const blockFormula = `\\frac{n!}{k!(n-k)!} = \\binom{n}{k}`;
+  const blockFormula = `\\frac{n!}{k!(n-k)!} = \\binom{4g} \ {5\\ g/mol}`;
 
   return (
     <>
@@ -21,6 +23,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
+        <MathJax.Provider>
+          <div>
+            <p>
+              Inline formula: <MathJax.Node inline formula={inlineFormula} />
+            </p>
+            <hr></hr>
+            <p>Block formula:</p>
+            <MathJax.Node formula={blockFormula} />
+          </div>
+        </MathJax.Provider>
         <div className={styles.description}>
           <p>
             Inline formula: <InlineMath math={inlineFormula} />
