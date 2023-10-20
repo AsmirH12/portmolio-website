@@ -71,75 +71,55 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="/partA" className={styles.card} rel="noopener noreferrer">
             <h2>
-              Part 1 <span>-&gt;</span>
+              Part A <span>-&gt;</span>
             </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
+            <p>Quiz corrections</p>
           </a>
 
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Part 1 <span>-&gt;</span>
+              Part B <span>-&gt;</span>
             </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
+            <p>Laboratory work</p>
           </a>
 
           <a
             href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Part 2 <span>-&gt;</span>
+              Part C <span>-&gt;</span>
             </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
+            <p>Designing a final summative test</p>
           </a>
 
           <a
             href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Part 3 <span>-&gt;</span>
+              Part D <span>-&gt;</span>
             </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
+            <p>Application - Ammonia Production</p>
           </a>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Part 4 <span>-&gt;</span>
+              Part E <span>-&gt;</span>
             </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
+            <p>Cover letter</p>
           </a>
         </div>
       </main>
