@@ -7,6 +7,7 @@ import "katex/dist/katex.min.css";
 import { InlineMath, BlockMath } from "react-katex";
 
 import MathJax from "react-mathjax";
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <ParticlesBackground />
       <main className={`${styles.main} ${inter.className}`}>
         <MathJax.Provider>
           <div>
