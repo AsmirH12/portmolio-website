@@ -1,13 +1,16 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
   align-items: center;
-  padding: 6rem;
+  padding: 60px;
   min-height: 100vh;
 }
 
 .description {
+  position: fixed;
+  top: 5px;
+  left: 5px;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
@@ -74,10 +77,11 @@
 
 .center {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 4rem 0;
+  padding: 20px 0;
 }
 
 /* .center::before {
@@ -107,6 +111,12 @@
 .logo {
   position: relative;
 }
+
+.avogadroPic {
+  width: 300px;
+  height: auto;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

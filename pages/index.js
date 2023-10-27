@@ -38,17 +38,19 @@ export default function Home() {
 
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
+            <code className={styles.code}>Hover</code> to lower
+            temperature.&nbsp;
+            <code className={styles.code}>Click</code> to break bonds.
           </p>
         </div>
 
         <div className={styles.center}>
           <h1>Asmir's Portmolio</h1>
+          <img className={styles.avogadroPic} src="/Avogadro.jpg"></img>
         </div>
 
         <div className={styles.grid}>
-          <a href="/partA" className={styles.card} rel="noopener noreferrer">
+          <a href="/part-a" className={styles.card} rel="noopener noreferrer">
             <h2>
               Part A <span>-&gt;</span>
             </h2>
