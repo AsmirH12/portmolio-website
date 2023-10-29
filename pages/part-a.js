@@ -1,7 +1,7 @@
 import ParticlesBackground from "@/components/ParticlesBackground";
 import styles from "@/styles/partA.module.css";
 import MathJax from "react-mathjax";
-
+import Navbar from "@/components/Navbar";
 
 export default function section1() {
   const inlineFormula = "\\cos (2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta";
@@ -10,23 +10,19 @@ export default function section1() {
     
     <MathJax.Provider>
       <ParticlesBackground/>
+      <Navbar title="Part A - Test Corrections"/>
       <div className={styles.pageContainer}>
         <div className={styles.mainContainer}>
-          <h1>Part A - Test Corrections</h1>
+          <h2 className={styles.test}>Test 1</h2>
           <div>
-            <p>
-              adhioawdh iawodawio dawiodhwoiahd iawoh dwioahdouawdhuawoh dawiodh
-              awiodh wioah doawidh oawidhioawh doai iawodawio dawiodhwoiahd
-              iawoh dwioahdouawdhuawoh dawiodh awiodh wioah doawidh oawidhioawh
-              doai iawodawio dawiodhwoiahd iawoh dwioahdouawdhuawoh dawiodh
-              awiodh wioah doawidh oawidhioawh doai
-            </p>
-
-            <h3>1. How many moles of Fe in 500g?</h3>
-            <div className={styles.threeColumns}>
+            <h3>Section III, Question 3</h3>
+            <p>Determine how many atoms of <MathJax.Node inline formula={"H"} /> are in one mouthful of water if the average mouth can hold <MathJax.Node inline formula={"84.2g"} /> of water.</p>
+            <div className={styles.columns}>
               <p>
-                <MathJax.Node inline formula={"m_{Fe}=200g"} />
+               <MathJax.Node formula={"M_{H}=84.2g"} />
 
+                <MathJax.Node formula={"M_{Fe}=5\frac{g}{mol}"} />
+                <MathJax.Node formula={"M_{Fe}=5\frac{g}{mol}"} />
               </p>
 
               <p>
@@ -41,7 +37,7 @@ export default function section1() {
                 <MathJax.Node formula={"M_{Fe}=5\frac{g}{mol}"} />
                 <MathJax.Node formula={"M_{Fe}=5\frac{g}{mol}"} />
                 <MathJax.Node formula={"=5g"} />
-                <MathJax.Node formula={"=53249324g/mol88897089 y87gkh jg yugyu guguog gy goug y o"} />
+                <MathJax.Node formula={"=53249324g/mol888"} />
               
               </div>
               

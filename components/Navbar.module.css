@@ -1,0 +1,13 @@
+.container {
+    height: 80px;
+    background-color: rgb(42, 144, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+}
