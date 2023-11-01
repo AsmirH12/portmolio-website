@@ -53,9 +53,79 @@ export default function section1() {
             </div>
 
             {/* problem 2*/}
-            <h3>Section III, Question 3</h3>
-            <p><b>Molecular formula</b></p>
-            <p>I mistakenly assumed that <MathJax.Node inline formula={"84.2 \\ g"}/> was the mass of <MathJax.Node inline formula={"H"}/>, when it is actually the mass of <MathJax.Node inline formula={"H_{2}O"}/>. Corrected solution:</p>
+            <h3>Section III, Question 6</h3>
+            <p>A <b>combustion analysis</b> is performed on <b>methanesulphonyl</b>, a sulphur containing organic compound.</p>
+            <p><MathJax.Node inline formula={'1.22 \\ g'}/> of it is combusted and the products are <MathJax.Node inline formula={'1.12 \\ g'}/> of <MathJax.Node inline formula={'CO_{2}'}/>
+            , <MathJax.Node inline formula={'0.687 \\ g'}/> of water and <MathJax.Node inline formula={'0.81 \\ g'}/> of sulphur dioxide. Determine the <b>empirical formula.</b></p>
+            <br/>
+            <p>I didn't calculate the mass and numbers of moles of <MathJax.Node inline formula={'O'}/>, which I was supposed to incorporate into the empirical formula. Corrected solution:</p>
+            <div className={styles.columnsCentered}>
+              <div>
+                <MathJax.Node formula={'m_{methanesulphonyl}=1.22 \\ g'}/>
+                <MathJax.Node formula={'m_{CO_{2}}=1.12 \\ g'}/>
+                <MathJax.Node formula={'m_{H_{2}O}=0.687 \\ g'}/>
+                <MathJax.Node formula={'m_{SO_{2}}=0.81 \\ g'}/>
+                <MathJax.Node formula={'EF= \\ ?'}/>
+              </div>
+
+              <div>
+                <MathJax.Node formula={'n=\\frac{m}{M}'}/>
+              </div>
+            </div>
+
+            <br/>
+            <br/>
+
+            <div className={styles.columns}>
+              {/* Carbon*/}
+              <div className={styles.borderRight}>
+                <MathJax.Node formula={'m_{C}=m_{CO_{2}}(\\frac{M_{C}}{M_{CO_{2}}})'}/>
+                <MathJax.Node formula={'=1.12 \\ g(\\frac{12.01 \\frac{g}{mol}}{44.01 \\frac{g}{mol}})'}/>
+                <MathJax.Node formula={'m_{C}=0.306 \\ g'}/>
+                <br/>
+                <MathJax.Node formula={'n_{C}=\\frac{m_{C}}{M_{C}}'}/>
+                <MathJax.Node formula={'=\\frac{0.306 \\ g}{12.01 \\ \\frac{g}{mol}}'}/>
+                <MathJax.Node formula={'n_{C}=0.0255 \\ mol'}/>
+              </div>
+              
+              {/* Hydrogen*/}
+              <div className={styles.borderRight}>
+                <MathJax.Node formula={'m_{H}=m_{H_{2}O}(\\frac{2(M_{H})}{M_{H_{2}O}})'}/>
+                <MathJax.Node formula={'=0.687 \\ g(\\frac{2.02 \\frac{g}{mol}}{18.02 \\frac{g}{mol}})'}/>
+                <MathJax.Node formula={'m_{H}=0.0770 \\ g'}/>
+                <br/>
+                <MathJax.Node formula={'n_{H}=\\frac{2(m_{H})}{M_{H}}'}/>
+                <MathJax.Node formula={'=\\frac{0.0770 \\ g}{1.01 \\ \\frac{g}{mol}}'}/>
+                <MathJax.Node formula={'n_{H}=0.0762 \\ mol'}/>
+              </div>
+              
+              {/* Silicon*/}
+              <div className={styles.borderRight}>
+                <MathJax.Node formula={'m_{S}=m_{SO_{2}}(\\frac{M_{S}}{M_{SO_{2}}})'}/>
+                <MathJax.Node formula={'=0.81 \\ g(\\frac{32.07 \\frac{g}{mol}}{64.07 \\frac{g}{mol}})'}/>
+                <MathJax.Node formula={'m_{S}=0.405 \\ g'}/>
+                <br/>
+                <MathJax.Node formula={'n_{S}=\\frac{m_{S}}{M_{S}}'}/>
+                <MathJax.Node formula={'=\\frac{0.405 \\ g}{32.07 \\ \\frac{g}{mol}}'}/>
+                <MathJax.Node formula={'n_{S}=0.0126 \\ mol'}/>
+              </div>
+
+            {/* Oxygen*/}
+              <div>
+                <MathJax.Node formula={'m_{O}=m_{methanesulphonyl}-(m_{C}+m_{H}+m_{S})'}/>
+                <MathJax.Node formula={'=1.22 \\ g-(0.306 \\ g + 0.0770 \\ g + 0.405 \\ g)'}/>
+                <MathJax.Node formula={'m_{O}=0.43 \\ g'}/>
+                <br/>
+                <MathJax.Node formula={'n_{O}=\\frac{m_{O}}{M_{O}}'}/>
+                <MathJax.Node formula={'=\\frac{0.43 \\ g}{16.00 \\ \\frac{g}{mol}}'}/>
+                <MathJax.Node formula={'n_{O}=0.027 \\ mol'}/>
+              </div>
+            </div>
+
+            <br/>
+            <MathJax.Node formula={'n_{C}:n_{H}:n_{S}:n_{O}=\\frac{0.0255 \\ mol:0.0762 \\ mol:0.0126 \\ mol:0.027 \\ mol}{0.0126 \\ mol}'}/>
+            <MathJax.Node formula={'=2:6:1:2'}/>
+            <MathJax.Node formula={'\\therefore \\ EF=C_{2}H_{6}SO_{2}'}/>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(198, 234, 246);
   min-height: 100vh;
+
 }
 
 .mainContainer {
@@ -12,6 +13,7 @@
   max-width: 900px;
   background-color: white;
   padding: 10px;
+  padding-bottom: 300px;
 }
 
 .mainContainer h1 {
@@ -26,4 +28,13 @@
 .columns {
   display: flex;
   justify-content: space-between;
+}
+
+.columnsCentered {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.borderRight {
+  border-right: 1px solid black;
 }
