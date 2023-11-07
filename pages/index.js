@@ -69,7 +69,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/part-c"
             className={styles.card}
             rel="noopener noreferrer"
           >

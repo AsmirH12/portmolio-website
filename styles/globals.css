@@ -85,16 +85,6 @@ body {
   overflow-x: hidden;
 }
 
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
-
 a {
   color: inherit;
   text-decoration: none;
@@ -104,4 +94,41 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+/* Custom */
+.math-jax {
+  font-size: 13.5px;
+}
+
+.pageContainer {
+  display: flex;
+
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(198, 234, 246);
+  min-height: 100vh;
+}
+
+.mainContainer {
+  padding-top: 10px;
+  max-width: 900px;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 300px;
+}
+
+.mainContainer h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columnsCentered {
+  display: flex;
+  justify-content: space-evenly;
 }
