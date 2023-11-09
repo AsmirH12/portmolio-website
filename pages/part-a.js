@@ -8,7 +8,7 @@ export default function partA() {
       <Navbar title="Part A - Test Corrections" />
       <div className="pageContainer">
         <div className="mainContainer">
-          <h2 className={styles.test}>Test 1</h2>
+          <h2 className={styles.test}>Quiz #1 - Moles</h2>
           <div>
             {/* problem 1*/}
             <h3>Section III, Question 3</h3>
@@ -233,6 +233,50 @@ export default function partA() {
             <MathJax.Node className="math-jax" formula={"=2:6:1:2"} />
             <MathJax.Node className="math-jax" formula={"\\therefore \\ EF=C_{2}H_{6}SO_{2}"} />
           </div>
+
+          <h2 className={styles.test}>Quiz #2 - Solutions & Gases</h2>
+          <h3>Section I, Question #7</h3>
+          <p>As the temperature of a solution increases, the solubility of salts generally ______ and the solubility of gases _______.</p>
+          <ol type="a" className="multiple-choice">
+            <li>doesn't change, doesn't change</li> 
+            <li className="correct-choice"><p>increases, decreases</p></li>
+            <li className="incorrect-choice">increases, increases</li>
+            <li>decreases, decreases</li>
+            <li>decreases, increases</li>
+          </ol>
+          <br/>
+          <p>The solubility of salts increase. However, the solubility of gases usually decreases because when temperature is increased, 
+          the gas particles gain excessive kinetic energy and can escape the solution. When gas particles escape from the solution, the solubility 
+          decreases. </p>
+
+          <br/>
+
+          <h3>Section I, Question #14</h3>
+          <p>At <MathJax.Node className='math-jax' inline formula={'101 \\ kPa'}/> pressure and a temperature of <MathJax.Node className='math-jax' inline formula={'253 \\ K'}/>, the <b>density</b> of a gas is</p>
+          <ol type="a" className="multiple-choice">
+            <li>the same as at STP</li> 
+            <li className="incorrect-choice">less than at STP</li>
+            <li className="correct-choice">greater than at STP</li>
+            <li>about 10 % less than at STP</li>
+            <li>always a constant regardless of temperature and pressure</li>
+          </ol>
+
+          <br/>
+
+          <p>The pressure of <MathJax.Node className='math-jax' inline formula={'101 \\ kPa'}/> is higher than the pressure at STP. According to Boyle's Law, pressure is inversely proportional to volume, so when pressure is increased, volume decreases.
+            The temperature of <MathJax.Node className='math-jax' inline formula={'253 \\ K'}/> lower than the temperature at STP. From Charles' Law, temperature is directly proportional to volume, so when temperature decreases, volume also decreases.
+            This lowers the volume, and in turn increases the density because the volume is in the denominator and so lower values result in greater density. 
+          </p>
+
+          <br/>
+
+          <h3>Section II, Question #1</h3>
+          <p>Think back to one of the many classroom demonstrations that you witnessed or think about some everyday phenomenon that occur with gases. <b>Briefly describe either a demonstration or an example</b> that exhibits one of the simple gas law relationships. State the law and <b>explain the phenomenon at the particle level.</b></p>
+
+          <br/>
+
+          <p>In my explanation I only talked about Charles' Law and failed to recognize that Guy-Lessac's Law is also at play. It states that pressure is directly proportional to temperature, so when temperature increases when it is hot, the pressure of the air in bike tires also increases. At the particle level, the particles gain kinectic energy and so the gas particles inside the tires collide with the tire in higher frequencies and more force, thereby increasing pressure.</p>
+
         </div>
       </div>
     </MathJax.Provider>
