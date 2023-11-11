@@ -263,9 +263,9 @@ export default function partA() {
 
           <br/>
 
-          <p>The pressure of <MathJax.Node className='math-jax' inline formula={'101 \\ kPa'}/> is higher than the pressure at STP. According to Boyle's Law, pressure is inversely proportional to volume, so when pressure is increased, volume decreases.
-            The temperature of <MathJax.Node className='math-jax' inline formula={'253 \\ K'}/> lower than the temperature at STP. From Charles' Law, temperature is directly proportional to volume, so when temperature decreases, volume also decreases.
-            This lowers the volume, and in turn increases the density because the volume is in the denominator and so lower values result in greater density. 
+          <p>The pressure of <MathJax.Node className='math-jax' inline formula={'101 \\ kPa'}/> is 1 <MathJax.Node className='math-jax' inline formula={'kPa'}/> higher than the pressure at STP. According to Boyle's Law, pressure is inversely proportional to volume, so when pressure is increased, volume decreases.
+            The temperature of <MathJax.Node className='math-jax' inline formula={'253 \\ K'}/> is <MathJax.Node className='math-jax' inline formula={'20 \\ K'}/> lower than the temperature at STP. From Charles' Law, temperature is directly proportional to volume, so when temperature decreases, volume also decreases.
+            Overall, the increase in pressure and decrease in temperature both lower the volume, and this in turn increases the density because the volume is in the denominator, so lower volumes result in greater density. 
           </p>
 
           <br/>
