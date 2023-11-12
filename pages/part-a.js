@@ -11,17 +11,17 @@ export default function partA() {
           <h2 className={styles.test}>Quiz #1 - Moles</h2>
 
           <div className="columnsCentered">
-            <img className="quiz-picture" src="/quiz1/Quiz-1-Page-1.jpg"></img>
-            <img className="quiz-picture" src="/quiz1/Quiz-1-Page-2.jpg"></img>
+            <img className="quiz-picture" src="/quiz1/Quiz1Page1.jpg"></img>
+            <img className="quiz-picture" src="/quiz1/Quiz1Page2.jpg"></img>
           </div>
 
           <div className="columnsCentered">
-            <img className="quiz-picture" src="/quiz1/Quiz-1-page-3.jpg"></img>
-            <img className="quiz-picture" src="/quiz1/Quiz-1-page-4.jpg"></img>
+            <img className="quiz-picture" src="/quiz1/Quiz1Page3.jpg"></img>
+            <img className="quiz-picture" src="/quiz1/Quiz1Page4.jpg"></img>
           </div>
 
           <div className="columnsCentered">
-            <img className="quiz-picture" src="/quiz1/Quiz-1-page-5.jpg"></img>
+            <img className="quiz-picture" src="/quiz1/Quiz1Page5.jpg"></img>
           </div>
           
           <div>
