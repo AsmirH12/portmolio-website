@@ -25,17 +25,6 @@ export default function Home() {
       </Head>
       <ParticlesBackground />
       <main className={`${styles.main} ${inter.className}`}>
-        {/* <MathJax.Provider>
-          <div>
-            <p>
-              Inline formula: <MathJax.Node inline formula={inlineFormula} />
-            </p>
-            <hr></hr>
-            <p>Block formula:</p>
-            <MathJax.Node formula={blockFormula} />
-          </div>
-        </MathJax.Provider> */}
-
         <div className={styles.description}>
           <p>
             <code className={styles.code}>Hover</code> to lower

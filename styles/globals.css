@@ -151,3 +151,8 @@ a {
   border-radius: 10px;
   padding: 5px;
 }
+
+.quiz-picture {
+  width: 400px;
+  margin-top:20px;
+}

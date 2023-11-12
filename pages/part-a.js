@@ -9,6 +9,21 @@ export default function partA() {
       <div className="pageContainer">
         <div className="mainContainer">
           <h2 className={styles.test}>Quiz #1 - Moles</h2>
+
+          <div className="columnsCentered">
+            <img className="quiz-picture" src="/quiz1/Quiz-1-Page-1.jpg"></img>
+            <img className="quiz-picture" src="/quiz1/Quiz-1-Page-2.jpg"></img>
+          </div>
+
+          <div className="columnsCentered">
+            <img className="quiz-picture" src="/quiz1/Quiz-1-page-3.jpg"></img>
+            <img className="quiz-picture" src="/quiz1/Quiz-1-page-4.jpg"></img>
+          </div>
+
+          <div className="columnsCentered">
+            <img className="quiz-picture" src="/quiz1/Quiz-1-page-5.jpg"></img>
+          </div>
+          
           <div>
             {/* problem 1*/}
             <h3>Section III, Question 3</h3>
@@ -235,6 +250,22 @@ export default function partA() {
           </div>
 
           <h2 className={styles.test}>Quiz #2 - Solutions & Gases</h2>
+
+          <div className="columnsCentered">
+            <img className="quiz-picture" src="/quiz2/Quiz2Page1.jpg"></img>
+            <img className="quiz-picture" src="/quiz2/Quiz2Page2.jpg"></img>
+          </div>
+
+          <div className="columnsCentered">
+            <img className="quiz-picture" src="/quiz2/Quiz2Page3.jpg"></img>
+            <img className="quiz-picture" src="/quiz2/Quiz2Page4.jpg"></img>
+          </div>
+
+          <div className="columnsCentered">
+            <img className="quiz-picture" src="/quiz2/Quiz2Page5.jpg"></img>
+          </div>
+
+
           <h3>Section I, Question #7</h3>
           <p>As the temperature of a solution increases, the solubility of salts generally ______ and the solubility of gases _______.</p>
           <ol type="a" className="multiple-choice">
