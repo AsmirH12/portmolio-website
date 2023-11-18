@@ -277,8 +277,8 @@ export default function partA() {
           </ol>
           <br/>
           <p>The solubility of salts increase. However, the solubility of gases usually decreases because when temperature is increased, 
-          the gas particles gain excessive kinetic energy and can escape the solution. When gas particles escape from the solution, the solubility 
-          decreases. </p>
+          the gas particles gain excessive kinetic energy and can escape the solution, whixh decreases the solubility.
+          </p>
 
           <br/>
 
@@ -296,7 +296,7 @@ export default function partA() {
 
           <p>The pressure of <MathJax.Node className='math-jax' inline formula={'101 \\ kPa'}/> is 1 <MathJax.Node className='math-jax' inline formula={'kPa'}/> higher than the pressure at STP. According to Boyle's Law, pressure is inversely proportional to volume, so when pressure is increased, volume decreases.
             The temperature of <MathJax.Node className='math-jax' inline formula={'253 \\ K'}/> is <MathJax.Node className='math-jax' inline formula={'20 \\ K'}/> lower than the temperature at STP. From Charles' Law, temperature is directly proportional to volume, so when temperature decreases, volume also decreases.
-            Overall, the increase in pressure and decrease in temperature both lower the volume, and this in turn increases the density because the volume is in the denominator, so lower volumes result in greater density. 
+            Overall, the increase in pressure and decrease in temperature both lower the volume, and this in turn increases the density. 
           </p>
 
           <br/>
@@ -306,8 +306,13 @@ export default function partA() {
 
           <br/>
 
-          <p>In my explanation I only talked about Charles' Law and failed to recognize that Guy-Lessac's Law is also at play. It states that pressure is directly proportional to temperature, so when temperature increases when it is hot, the pressure of the air in bike tires also increases. At the particle level, the particles gain kinectic energy and so the gas particles inside the tires collide with the tire in higher frequencies and more force, thereby increasing pressure.</p>
+          <p>In my explanation I only talked about Charles' Law and failed to recognize that Guy-Lessac's Law is also at play. It states that pressure is directly proportional to temperature, so when temperature increases when it is hot, the pressure of the air in bike tires also increases. At the particle level, the particles gain kinectic energy and collide with the inner sides of the tires in higher frequencies and more force, thereby increasing pressure.</p>
 
+          <br/>
+          <h2 className={styles.test}>Quiz #3 - Stoichiometry</h2>
+          <div className="columnsCentered">
+            <img className="quiz-picture" src="/Quiz3.jpg"></img>
+          </div>
         </div>
       </div>
     </MathJax.Provider>
