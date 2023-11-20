@@ -312,7 +312,7 @@ export default function partA() {
           <h2 className={styles.test}>Quiz #3 - Stoichiometry</h2>
           <div className="columnsCentered">
             <img className="quiz-picture" src="/Quiz3.jpg"></img>
-          </div>
+          </div> 
         </div>
       </div>
     </MathJax.Provider>
