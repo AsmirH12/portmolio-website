@@ -1,4 +1,3 @@
-import styles from "@/styles/partC.module.css";
 import MathJax from "react-mathjax";
 import Navbar from "@/components/Navbar";
 
@@ -391,7 +390,7 @@ export default function partC() {
                 v&=\\frac{nRT}{P} \\\\ \\\\ \\\\
                 n&=\\frac{m}{M} \\\\ \\\\
                 m&=nM \\\\ \\\\ \\\\
-                \\frac{P_{1}V_{1}}{T{1}}&=\\frac{P_{2}V_{2}}{T{2}} \\\\ \\\\
+                \\frac{P_{1}V_{1}}{T_{1}}&=\\frac{P_{2}V_{2}}{T_{2}} \\\\ \\\\
                 \\frac{P_{1}V_{1}T_{2}}{T_{1}}&=P_{2}V_{2} \\\\ \\\\
                 V_{2}&=\\frac{P_{1}V_{1}T_{2}}{T_{1}P_{2}}
                 \\end{aligned}`} />

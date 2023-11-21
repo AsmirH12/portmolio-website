@@ -4,17 +4,11 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
 import "katex/dist/katex.min.css";
-import { InlineMath, BlockMath } from "react-katex";
-
-import MathJax from "react-mathjax";
 import ParticlesBackground from "@/components/ParticlesBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const inlineFormula = "\\cos (2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta";
-  const blockFormula = `\\frac{n!}{k!(n-k)!} = \\binom{4g} \ {5\\ g/mol}`;
-
   return (
     <>
       <Head>
@@ -80,7 +74,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/part-e"
             className={styles.card}
             rel="noopener noreferrer"
           >
