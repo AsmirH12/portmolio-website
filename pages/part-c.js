@@ -33,14 +33,12 @@ export default function partC() {
                 m_{C_{8}H_{11}NO_{2}} 
                 &= 56.78 \\ mg \\\\ 
                 &= 56.78 \\ mg \\ (\\frac{1 \\ g}{1000 \\ mg}) \\\\ 
-                &= 0.05678 \\ g \\\\
+                &= 0.05678 \\ g \\\\ \\\\
                 M_{C_{8}H_{11}NO_{2}}
                 &=8(12.01)+11(1.01)+14.01+2(16.00) \\ \\frac{g}{mol}\\\\
-                &=153.20 \\ \\frac{g}{mol} \\\\ 
+                &=153.20 \\ \\frac{g}{mol} \\\\ \\\\
                 n_{H}&= \\ ?\\end{aligned}`} />
               </div>
-
-
 
               <div>
                 <MathJax.Node className='math-jax' formula={'n=\\frac{m}{M}'} />
@@ -51,12 +49,12 @@ export default function partC() {
                 n_{C_{8}H_{11}NO_{2}}
                 &= \\frac{m_{C_{8}H_{11}NO_{2}}}{M_{C_{8}H_{11}NO_{2}}} \\\\ \\\\
                 &=\\frac{0.05678 \\ g}{153.20 \\ \\frac{g}{mol}} \\\\ \\\\
-                n_{C_{8}H_{11}NO_{2}}&=3.706(10^{-5}) \\ mol \\\\ \\\\
+                n_{C_{8}H_{11}NO_{2}}&=3.706(10^{-4}) \\ mol \\\\ \\\\ \\\\
                 n_{H}
                 &=n_{C_{8}H_{11}NO_{2}}(\\frac{11 \\ mol \\ H}{1 \\ mol \\ C_{8}H_{11}NO_{2}}) \\\\ \\\\
-                &=3.706(10^{-5} \\ mol)(\\frac{11 \\ mol \\ H}{1 \\ mol \\ C_{8}H_{11}NO_{2}}) \\\\ \\\\
-                &=40.77(10^{-5}) \\ mol \\\\ \\\\
-                n_{H}&=4.077(10^{-4}) \\ mol 
+                &=3.706(10^{-4} \\ mol)(\\frac{11 \\ mol \\ H}{1 \\ mol \\ C_{8}H_{11}NO_{2}}) \\\\ \\\\
+                &=40.77(10^{-4}) \\ mol \\\\ \\\\
+                n_{H}&=4.077(10^{-3}) \\ mol 
                 \\end{aligned}`} />
 
               </div>
@@ -78,9 +76,9 @@ export default function partC() {
             <br />
             <p>
               Thallium-201 is a common radioactive tracer used in SPECT. The
-              half-life of Thallium-201 is 72.9 hours. If 13.0 mg of Thallium-201
+              half-life of Thallium-201 is <MathJax.Node className='math-jax' inline formula={'72.9  \\ hours'} />. If <MathJax.Node className='math-jax' inline formula={'13.0 \\ mg'} /> of Thallium-201
               is injected into a patient’s bloodstream, how many particles of
-              thallium-201 remain in the patient’s body after 2 weeks?
+              thallium-201 remain in the patient’s body after <MathJax.Node className='math-jax' inline formula={'2 \\ weeks'} />?
             </p>
 
             <div className="columnsCentered">
@@ -100,9 +98,9 @@ export default function partC() {
 
               <div>
                 <MathJax.Node className='math-jax' formula={`\\begin{aligned}
-                Final \\ m&=(Initial \\ m)(\\frac{1}{2})^{\\frac{t}{t_{1/2}}} \\\\ \\\\
-                n&=\\frac{m}{M} \\\\ \\\\
-                N&=n(N_{A}) \\\\ 
+                Final \\ m&=(Initial \\ m)(\\frac{1}{2})^{\\frac{t}{t_{1/2}}} \\\\ \\\\ \\\\
+                n&=\\frac{m}{M} \\\\ \\\\ \\\\
+                N&=n(N_{A}) \\\\ \\\\
                 &=\\frac{m}{M}(N_{A})
                 \\end{aligned}`} />
               </div>
@@ -112,14 +110,14 @@ export default function partC() {
 
             <div className="columnsCentered">
               <MathJax.Node className='math-jax' formula={`\\begin{aligned}
-                Final \\ m_{Tl-201} &= (Initial \\ m_{Tl-201})(\\frac{1}{2})^{\\frac{t}{t_{1/2}}} \\\\ 
-                &=0.0130 \\ g(\\frac{1}{2})^{\\frac{336 \\ hours}{72.9 \\ hours/half-life}} \\\\ 
-                &=0.0130 \\ g(\\frac{1}{2})^{4.61 \\ half-lives} \\\\ 
-                Final \\ m_{Tl-201}&=5.32(10^{-4}) \\ g \\\\ \\\\
-                Final \\ N_{Tl-201} &= \\frac{Final \\ m_{Tl-201}}{M_{Tl-201}}(N_{A}) \\\\ 
-                &= \\frac{5.32(10^{-4}) \\ g}{201 \\ \\frac{g}{mol}}(\\frac{6.02(10^{23}) \\ atoms}{mol}) \\\\ 
-                &= \\frac{32.0(10^{19})}{201} \\ atoms \\\\ 
-                &= 0.159(10^{19}) \\ atoms \\\\ 
+                Final \\ m_{Tl-201} &= (Initial \\ m_{Tl-201})(\\frac{1}{2})^{\\frac{t}{t_{1/2}}} \\\\ \\\\
+                &=0.0130 \\ g(\\frac{1}{2})^{\\frac{336 \\ hours}{72.9 \\ hours/half-life}} \\\\ \\\\
+                &=0.0130 \\ g(\\frac{1}{2})^{4.61 \\ half-lives} \\\\ \\\\
+                Final \\ m_{Tl-201}&=5.32(10^{-4}) \\ g \\\\ \\\\ \\\\
+                Final \\ N_{Tl-201} &= \\frac{Final \\ m_{Tl-201}}{M_{Tl-201}}(N_{A}) \\\\  \\\\
+                &= \\frac{5.32(10^{-4}) \\ g}{201 \\ \\frac{g}{mol}}(\\frac{6.02(10^{23}) \\ atoms}{mol}) \\\\  \\\\
+                &= \\frac{32.0(10^{19})}{201} \\ atoms \\\\ \\\\
+                &= 0.159(10^{19}) \\ atoms \\\\ \\\\
                 Final \\ N_{Tl-201}&= 1.59(10^{18}) \\ atoms
 
 
@@ -133,19 +131,16 @@ export default function partC() {
 
           <div className="problem">
             <p>
-              Type 3 - A percent composition analysis is performed on docosahexaenoic acid,
+              Type #3 - A percent composition analysis is performed on <MathJax.Node className='math-jax' inline formula={'docosahexaenoic \\ acid'} />,
               the predominant omega-3 fatty acid found in
               the brain that is essential for the maintenance
               of normal brain function. It’s found to consist of Carbon,
-              Hydrogen, and Oxygen, with 80.42% carbon by mass. However,
-              the exact % of Hydrogen and Oxygen could not be obtained,
-              but the % Hydrogen is 0.0970% higher than the % Oxygen.
+              Hydrogen, and Oxygen, with <MathJax.Node className='math-jax' inline formula={'80.42%'} /> carbon by mass. The exact <MathJax.Node className='math-jax' inline formula={'%'} /> of Hydrogen and Oxygen could not be obtained,
+              but the <MathJax.Node className='math-jax' inline formula={'%'} /> Hydrogen is <MathJax.Node className='math-jax' inline formula={'0.0970%'} /> higher than the <MathJax.Node className='math-jax' inline formula={'%'} /> Oxygen.
             </p>
             <br />
             <p>
-              When 517.1 g of the acid was vaporized at 450.2°C
-              in a 22.02L container, the pressure was 429.5 kpa.
-              What is the molecular formula?
+              When <MathJax.Node className='math-jax' inline formula={'517.1 \\ g'} /> of the acid was vaporized at <MathJax.Node className='math-jax' inline formula={'450.2°C'} /> in a <MathJax.Node className='math-jax' inline formula={'22.02L'} /> container, the pressure was <MathJax.Node className='math-jax' inline formula={'429.5 \\ kpa'} />. What is the molecular formula?
             </p>
             <br />
 
@@ -283,7 +278,7 @@ export default function partC() {
 
           <div className="problem">
             <p>
-              Alcoholic beverages interfere with the brain’s
+              Type #4 - Alcoholic beverages interfere with the brain’s
               communication pathways and makes it harder for the
               areas of the brain involved in balance, coordination,
               memory, and speech to perform their jobs properly. Ethanol is the main
@@ -303,7 +298,7 @@ export default function partC() {
             <div className="columns">
               <div>
                 <MathJax.Node className='math-jax' formula={`\\begin{aligned}
-                C_{C_{2}H_{6}O}&=1.52 \\ \\frac{L}{mol} \\\\  \\\\
+                C_{C_{2}H_{6}O}&=1.52 \\ \\frac{mol}{L} \\\\ \\\\
                 V_{CH_{3}OOH}&=53.1 \\ mL(\\frac{1 \\ L}{1000 \\ mL}) \\\\
                 &=0.0531 \\ L \\\\ \\\\
                 C_{CH_{3}OOH}&=5.84 \\ \\frac{mol}{L} \\\\ \\\\
@@ -323,22 +318,22 @@ export default function partC() {
 
               <div>
                 <MathJax.Node className='math-jax' formula={`\\begin{aligned}
-            n_{CH_{3}OOH}&=C_{CH_{3}OOH}V_{CH_{3}OOH} \\\\
-            &=5.84 \\ \\frac{mol}{L}(0.0531 \\ L) \\\\
-            n_{CH_{3}OOH}&=0.310 \\ mol \\\\ \\\\
+            n_{CH_{3}OOH}&=C_{CH_{3}OOH}V_{CH_{3}OOH} \\\\ \\\\
+            &=5.84 \\ \\frac{mol}{L}(0.0531 \\ L) \\\\ \\\\
+            n_{CH_{3}OOH}&=0.310 \\ mol \\\\ \\\\ \\\\
 
-            n_{C_{2}H_{6}O}&=n_{CH_{3}OOH}(\\frac{1 \\ mol \\ C_{2}H_{6}O}{1 \\ mol \\ CH_{3}OOH}) \\\\
-            n_{C_{2}H_{6}O}&=0.310 \\ mol \\\\ \\\\
+            n_{C_{2}H_{6}O}&=n_{CH_{3}OOH}(\\frac{1 \\ mol \\ C_{2}H_{6}O}{1 \\ mol \\ CH_{3}OOH}) \\\\ \\\\
+            n_{C_{2}H_{6}O}&=0.310 \\ mol \\\\ \\\\ \\\\
 
-            V_{C_{2}H_{6}O}&=\\frac{n_{C_{2}H_{6}O}}{C_{C_{2}H_{6}O}} \\\\
-            &=\\frac{0.310 \\ mol}{1.52 \\ \\frac{mol}{L}} \\\\
+            V_{C_{2}H_{6}O}&=\\frac{n_{C_{2}H_{6}O}}{C_{C_{2}H_{6}O}} \\\\ \\\\
+            &=\\frac{0.310 \\ mol}{1.52 \\ \\frac{mol}{L}} \\\\ \\\\
             V_{C_{2}H_{6}O}&=0.204 \\ L \\\\ \\\\ \\\\
 
-            n_{CH_{3}CO_{2}CH_{2}CH_{3}}&=n_{CH_{3}OOH}(\\frac{1 \\ mol \\ CH_{3}CO_{2}CH_{2}CH_{3}}{1 \\ mol \\ CH_{3}OOH}) \\\\
-            &=0.310 \\ mol \\\\ \\\\
+            n_{CH_{3}CO_{2}CH_{2}CH_{3}}&=n_{CH_{3}OOH}(\\frac{1 \\ mol \\ CH_{3}CO_{2}CH_{2}CH_{3}}{1 \\ mol \\ CH_{3}OOH}) \\\\ \\\\
+            n_{CH_{3}CO_{2}CH_{2}CH_{3}}&=0.310 \\ mol \\\\ \\\\ \\\\
 
-            C_{CH_{3}CO_{2}CH_{2}CH_{3}}&=\\frac{n_{CH_{3}CO_{2}CH_{2}CH_{3}}}{V_{CH_{3}CO_{2}CH_{2}CH_{3}}} \\\\
-            &=\\frac{0.310 \\ mol}{0.0158 \\ L} \\\\
+            C_{CH_{3}CO_{2}CH_{2}CH_{3}}&=\\frac{n_{CH_{3}CO_{2}CH_{2}CH_{3}}}{V_{CH_{3}CO_{2}CH_{2}CH_{3}}} \\\\ \\\\
+            &=\\frac{0.310 \\ mol}{0.0158 \\ L} \\\\ \\\\
             C_{CH_{3}CO_{2}CH_{2}CH_{3}}&=19.6 \\ \\frac{mol}{L} 
             \\end{aligned}`} />
               </div>
@@ -348,7 +343,7 @@ export default function partC() {
 
           <div className="problem">
             <p>Type #5 - Anesthesia is the concept of using medicine to prevent pain and
-              discomfort during surgeries and medical procedures. It works by
+              discomfort in patients during surgeries and medical procedures. It works by
               blocking sensory signals to the brain. A popular gaseous anesthetic
               used for general anesthesia is nitrous oxide gas (<MathJax.Node className='math-jax' inline formula={'N_{2}O'} />), commonly
               known as laughing gas. Nitrous oxide is usually produced from the
@@ -360,7 +355,7 @@ export default function partC() {
             </p>
             <br />
             <p>
-              After this reaction took place, the pressure was increased to <MathJax.Node className='math-jax' inline formula={'1165 mmHg '} /> and the temperature was decreased to <MathJax.Node className='math-jax' inline formula={'395.6K'} />. What is the new volume of water?
+              After this reaction took place, the pressure was increased to <MathJax.Node className='math-jax' inline formula={'1165 mmHg '} /> and the temperature was decreased to <MathJax.Node className='math-jax' inline formula={'395.6K'} />. What is the new volume of water vapour?
             </p>
             <br />
 
@@ -374,14 +369,14 @@ export default function partC() {
             <div className="columns">
               <div>
                 <MathJax.Node className='math-jax' formula={`\\begin{aligned}
-                V_1 \\ {N_{2}O}&=580.7 \\ mL(\\frac{1 \\ L}{1000 \\ mL}) \\\\
+                V_{{N_{2}O}}&=580.7 \\ mL(\\frac{1 \\ L}{1000 \\ mL}) \\\\
                 &=0.5807 \\ L \\\\ \\\\
                 T_{1}&=400.3 \\ K \\\\ \\\\
                 T_{2}&=395.6 \\ K \\\\ \\\\
                 P_{1}&=1125 \\ mmHg(\\frac{101.3 \\ kPa}{760 \\ mmHg}) \\\\
-                &=150.0 \\ kPA \\\\ \\\\
+                &=150.0 \\ kPa \\\\ \\\\
                 P_{2}&=1165 \\ mmHg(\\frac{101.3 \\ kPa}{760 \\ mmHg}) \\\\
-                &=155.3 \\ kPA \\\\ \\\\
+                &=155.3 \\ kPa \\\\ \\\\
                 M_{NH_{4}NO_{3}}&=14.01+4(1.01)+14.01+3(16.00) \\ \\frac{g}{mol} \\\\
                 &=80.06 \\ \\frac{g}{mol} \\\\ \\\\
                 m_{NH_{4}NO_{3}}&= \\ ? \\\\ \\\\
@@ -392,26 +387,40 @@ export default function partC() {
               <div>
                 <MathJax.Node className='math-jax' formula={`\\begin{aligned}
                 PV&=nRT \\\\ \\\\
-                n&=\\frac{PV}{RT} \\\\ \\\\ \\\\
+                n&=\\frac{PV}{RT} \\\\ \\\\
                 v&=\\frac{nRT}{P} \\\\ \\\\ \\\\
                 n&=\\frac{m}{M} \\\\ \\\\
                 m&=nM \\\\ \\\\ \\\\
                 \\frac{P_{1}V_{1}}{T{1}}&=\\frac{P_{2}V_{2}}{T{2}} \\\\ \\\\
-                \\frac{P_{1}V{1}T_{2}}{T_{1}}&=P_{2}V_{2} \\\\ \\\\
-                V_{2}&=\\frac{P_{1}V{1}T_{2}}{T_{1}P_{2}}
+                \\frac{P_{1}V_{1}T_{2}}{T_{1}}&=P_{2}V_{2} \\\\ \\\\
+                V_{2}&=\\frac{P_{1}V_{1}T_{2}}{T_{1}P_{2}}
                 \\end{aligned}`} />
               </div>
 
               <div>
                 <MathJax.Node className='math-jax' formula={`\\begin{aligned}
-                n_{N_{2}O}&=\\frac{P_{1}(V_{1 \\ N_{2}O})}{RT} \\\\ \\\\
+                n_{N_{2}O}&=\\frac{P_{1}(V_{N_{2}O})}{RT_{1}} \\\\ \\\\
                 &=\\frac{150.0 \\ kPa(0.5807 \\ L)}{8.314 \\ \\frac{kPa \\cdot L}{mol \\cdot K}(400.3 \\ K)} \\\\ \\\\
                 n_{N_{2}O}&=0.02617 \\ mol \\\\ \\\\ \\\\
+
                 n_{NH_{4}NO_{3}}&=n_{N_{2}O}(\\frac{1 \\ mol \\ NH_{4}NO_{3}}{1 \\ mol \\ N_{2}O}) \\\\ \\\\
                 n_{NH_{4}NO_{3}}&=0.02617 \\ mol \\\\ \\\\ \\\\
+
                 m_{NH_{4}NO_{3}}&=n_{NH_{4}NO_{3}}(m_{NH_{4}NO_{3}}) \\\\ \\\\
                 &=0.02617 \\ mol(80.06 \\ \\frac{g}{mol}) \\\\ \\\\
-                m_{NH_{4}NO_{3}}&=2.095 \\ g \\\\ \\\\ \\\\
+                m_{NH_{4}NO_{3}}&=20.95 \\ g \\\\ \\\\ \\\\
+
+                n_{H_{2}O}&=n_{N_{2}O}(\\frac{2 \\ mol \\ H_{2}O}{1 \\ mol \\ N_{2}O}) \\\\ \\\\
+                &=0.02617 \\ mol(\\frac{2 \\ mol \\ H_{2}O}{1 \\ mol \\ N_{2}O}) \\\\ \\\\
+                n_{H_{2}O}&=0.05234 \\ mol \\\\ \\\\ \\\\
+
+                V_{1} \\ H_{2}O&=\\frac{n_{H_{2}O}RT_{1}}{P_{1}} \\\\ \\\\
+                &=\\frac{0.05243 \\ mol(8.314 \\ \\frac{kPa \\cdot L}{mol \\cdot K})400.3 \\ K}{150.0 \\ kPa} \\\\ \\\\
+                V_{1} \\ H_{2}O&=1.163 \\ L \\\\ \\\\ \\\\
+
+                V_{2} \\ H_{2}O&=\\frac{P_{1}(V_{1} \\ H_{2}O)T_{2}}{T_{1}P_{2}} \\\\ \\\\
+                &=\\frac{150.0 \\ kPa(1.163 \\ L)(395.6 \\ K)}{400.3 \\ K(155.3 \\ kPa)} \\\\ \\\\
+                V_{2} \\ H_{2}O&=1.110 \\ L  
                 
                 \\end{aligned}`} />
               </div>
