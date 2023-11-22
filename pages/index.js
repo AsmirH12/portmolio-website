@@ -41,9 +41,10 @@ export default function Home() {
           </a>
 
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://docs.google.com/document/d/1_SSuqrJDYHUtd0BSyYtAvKlzDHdQjm0njKYpe23uQRQ/edit?usp=sharing"
             className={styles.card}
             rel="noopener noreferrer"
+            target="_blank"
           >
             <h2>
               Part B <span>-&gt;</span>
@@ -63,9 +64,10 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://docs.google.com/document/d/1lkFG1P-_LnQPvqWs6ah1Q3IFAhysUcu9CSfJPu7QuNM/edit?usp=sharing"
             className={styles.card}
             rel="noopener noreferrer"
+            target="_blank"
           >
             <h2>
               Part D <span>-&gt;</span>

@@ -67,15 +67,14 @@ export default function partA() {
 
               <MathJax.Node className='math-jax' formula={`\\begin{aligned}
                 N_{H_{2}O}&=\\frac{m_{H_{2}O}}{M_{H_{2}O}}(N_{A}) \\\\ \\\\
-                &=\\frac{84.2 \\  g}{1.01 \\ \\frac{g}{mol}}(\\frac{6.02  \\times 10^{23} \\ molecules}{mol}) \\\\ \\\\
-                &=\\frac{84.2 \\ mol(6.02 \\times 10^{23} \\ molecules)}{1.01 \\ mol} \\\\ \\\\
-                &=\\frac{84.2(6.02 \\times 10^{23})}{1.01} \\ molecules \\\\ \\\\
-                &=502 \\times 10^{23} \\ molecules \\\\ \\\\
-                N_{H_{2}O}&=5.02 \\times 10^{25} \\ molecules \\\\ \\\\ \\\\
+                &=\\frac{84.2 \\  g}{18.02 \\ \\frac{g}{mol}}(\\frac{6.02  \\times 10^{23} \\ molecules}{mol}) \\\\ \\\\
+                &=\\frac{84.2 \\ mol(6.02 \\times 10^{23} \\ molecules)}{18.02 \\ mol} \\\\ \\\\
+                &=\\frac{84.2(6.02 \\times 10^{23})}{18.02} \\ molecules \\\\ \\\\
+                &=28.1 \\times 10^{23} \\ molecules \\\\ \\\\
+                N_{H_{2}O}&=2.81 \\times 10^{24} \\ molecules \\\\ \\\\ \\\\
                 N_{H}&=N_{H_{2}O} (\\frac{2 \\ H \\ atoms}{1 \\ H_{2}O \\ molecule}) \\\\ \\\\
-                &=5.02 \\times 10^{25} \\ H_{2}O \\ molecules (\\frac{2 \\ H \\ atoms}{1 \\ H_{2}O \\ molecule}) \\\\ \\\\
-                &=10.04 \\times 10^{25} \\ atoms \\\\ \\\\
-                N_{H}&=1.00 \\times 10^{26} \\ atoms
+                &=2.81 \\times 10^{24} \\ H_{2}O \\ molecules (\\frac{2 \\ H \\ atoms}{1 \\ H_{2}O \\ molecule}) \\\\ \\\\
+                N_{H}&=5.62 \\times 10^{24} \\ atoms \\\\ \\\\
                 \\end{aligned}`} />
             </div>
 
@@ -190,6 +189,7 @@ export default function partA() {
 
           <h3>Section I, Question #7</h3>
           <p>As the temperature of a solution increases, the solubility of salts generally ______ and the solubility of gases _______.</p>
+          <br />
           <ol type="a" className="multiple-choice">
             <li>doesn't change, doesn't change</li>
             <li className="correct-choice"><p>increases, decreases</p></li>
@@ -198,7 +198,7 @@ export default function partA() {
             <li>decreases, increases</li>
           </ol>
           <br />
-          <p>The solubility of salts increase. However, the solubility of gases usually decreases because when temperature is increased,
+          <p>The solubility of salts usually increases, because the particles gain more kinetic energy and can incorporate throughout the solvent easier. However, the solubility of gases usually decreases because when temperature is increased,
             the gas particles gain excessive kinetic energy and can escape the solution, which decreases the solubility.
           </p>
 
@@ -206,6 +206,7 @@ export default function partA() {
 
           <h3>Section I, Question #14</h3>
           <p>At <MathJax.Node className='math-jax' inline formula={'101 \\ kPa'} /> pressure and a temperature of <MathJax.Node className='math-jax' inline formula={'253 \\ K'} />, the <b>density</b> of a gas is</p>
+          <br />
           <ol type="a" className="multiple-choice">
             <li>the same as at STP</li>
             <li className="incorrect-choice">less than at STP</li>

@@ -7,14 +7,77 @@ export default function partC() {
       <Navbar title="Part C - Final Summative Test" />
       <div className="pageContainer">
         <div className="mainContainer">
-          <h1>Theme: Neurochemistry</h1>
-
+          <h1>Theme: <span className="brainColour">Neurochemistry</span></h1>
 
           <div className="columnsCentered">
             <img className="brainImage" src="\Brain.png"></img>
           </div>
 
+          <h2 className="testSectionHeader">
+            Moletiple Choice
+          </h2>
 
+
+          <div className="problem">
+            <p>1. What is the percent composition by mass of carbon in gamma-aminobutyric acid (<MathJax.Node className='math-jax' inline formula={'C_{4}H_{9}NO_{2}'} />), an amino acid and inhibitory neurotransmitter known for creating a calming effect by slowing down signals in your central nervous system?</p>
+            <br />
+            <ol type="a" className="multiple-choice">
+              <li><MathJax.Node className='math-jax' inline formula={'8.8 \\%'} /></li>
+              <li><MathJax.Node className='math-jax' inline formula={'11.6 \\%'} /></li>
+              <li><MathJax.Node className='math-jax' inline formula={'23.3 \\%'} /></li>
+              <li className="correct-choice"><MathJax.Node className='math-jax' inline formula={'46.6\\%'} /></li>
+            </ol>
+          </div>
+
+          <div className="problem">
+            <p>2. How many moles are in <MathJax.Node className='math-jax' inline formula={'20.4 \\ g'} /> of serotonin, a monoamine neurotransmitter with a molecular formula of <MathJax.Node className='math-jax' inline formula={'C_{10}H_{12}N_{2}O'} /> that controls mood, sleep, and memory?</p>
+            <br />
+            <ol type="a" className="multiple-choice">
+              <li className="correct-choice"><MathJax.Node className='math-jax' inline formula={'0.116 \\ mol'} /></li>
+              <li><MathJax.Node className='math-jax' inline formula={'0.474 \\ mol'} /></li>
+              <li ><MathJax.Node className='math-jax' inline formula={'20.4 \\ mol'} /></li>
+              <li><MathJax.Node className='math-jax' inline formula={'8.64 \\ mol'} /></li>
+            </ol>
+          </div>
+
+          <div className="problem">
+            <p>3. A sample of hydrogen sulfide, a gaseous neuromodulator, undergoes a decrease in pressure and an increase in temperature. The density of the gas will:</p>
+            <br />
+            <ol type="a" className="multiple-choice">
+              <li>Increase</li>
+              <li className="correct-choice">Decrease</li>
+              <li >Stay the same</li>
+              <li>Depends on the amount of pressure and temperature change</li>
+            </ol>
+          </div>
+
+          <div className="problem">
+            <p>4. Cerebrospinal fluid, is a clear watery fluid surrounding the nervous system. It  is composed of various aqueous ionic compounds in small amounts, with <MathJax.Node className='math-jax' inline formula={'NaCl'} /> being the most abundant salt. <MathJax.Node className='math-jax' inline formula={'NaCl'} /> can react with lead nitrate, as shown by this chemical equation: </p>
+            <MathJax.Node className='math-jax' formula={'2NaCl \\ (aq)+Pb(NO_{3})_{2} \\ (aq) \\rightarrow 2NaNO_{3} \\ (aq)+PbCl_{2} \\ (s)'} />
+            <p>How many moles of lead chloride precipitate are produced when <MathJax.Node className='math-jax' inline formula={'11.0 \\ L'} /> of <MathJax.Node className='math-jax' inline formula={'0.500 \\ \\frac{mol}{L}'} /> <MathJax.Node className='math-jax' inline formula={'NaCl'} /> solution is mixed with <MathJax.Node className='math-jax' inline formula={'12.0 \\ L'} /> of <MathJax.Node className='math-jax' inline formula={'0.250 \\ \\frac{mol}{L}'} /> lead nitrate solution?</p>
+            <br />
+            <ol type="a" className="multiple-choice">
+              <li className="correct-choice"><MathJax.Node className='math-jax' inline formula={'2.75 \\ mol'} /></li>
+              <li><MathJax.Node className='math-jax' inline formula={'5.50 \\ mol'} /></li>
+              <li ><MathJax.Node className='math-jax' inline formula={'6.00 \\ mol'} /></li>
+              <li><MathJax.Node className='math-jax' inline formula={'1.50 \\ mol'} /></li>
+            </ol>
+          </div>
+
+          <div className="problem">
+            <p>5. What is the density, in <MathJax.Node className='math-jax' inline formula={'\\frac{g}{L}'} />, of nitric oxide (<MathJax.Node className='math-jax' inline formula={'NO'} />), a gas in the brain that is involved in neurotransmission and the regulation of blood flow to areas of the brain, if it is pressurized at <MathJax.Node className='math-jax' inline formula={'128 \\ kPa'} /> with a temperature of <MathJax.Node className='math-jax' inline formula={'300 \ K'} />?</p>
+            <br />
+            <ol type="a" className="multiple-choice">
+              <li><MathJax.Node className='math-jax' inline formula={'3.08 \\ \\frac{g}{L}'} /></li>
+              <li><MathJax.Node className='math-jax' inline formula={'0.719 \\ \\frac{g}{L}'} /></li>
+              <li className="correct-choice"><MathJax.Node className='math-jax' inline formula={'1.54 \\ \\frac{g}{L}'} /></li>
+              <li><MathJax.Node className='math-jax' inline formula={'0.821 \\ \\frac{g}{L}'} /></li>
+            </ol>
+          </div>
+
+          <h2 className="testSectionHeader">
+            Long Answer
+          </h2>
 
           <div className="problem">
             <p>
@@ -51,7 +114,7 @@ export default function partC() {
                 n_{C_{8}H_{11}NO_{2}}&=3.706(10^{-4}) \\ mol \\\\ \\\\ \\\\
                 n_{H}
                 &=n_{C_{8}H_{11}NO_{2}}(\\frac{11 \\ mol \\ H}{1 \\ mol \\ C_{8}H_{11}NO_{2}}) \\\\ \\\\
-                &=3.706(10^{-4} \\ mol)(\\frac{11 \\ mol \\ H}{1 \\ mol \\ C_{8}H_{11}NO_{2}}) \\\\ \\\\
+                &=3.706(10^{-4} \\ mol)(11) \\\\ \\\\
                 &=40.77(10^{-4}) \\ mol \\\\ \\\\
                 n_{H}&=4.077(10^{-3}) \\ mol 
                 \\end{aligned}`} />
@@ -134,8 +197,8 @@ export default function partC() {
               the predominant omega-3 fatty acid found in
               the brain that is essential for the maintenance
               of normal brain function. It’s found to consist of Carbon,
-              Hydrogen, and Oxygen, with <MathJax.Node className='math-jax' inline formula={'80.42%'} /> carbon by mass. The exact <MathJax.Node className='math-jax' inline formula={'%'} /> of Hydrogen and Oxygen could not be obtained,
-              but the <MathJax.Node className='math-jax' inline formula={'%'} /> Hydrogen is <MathJax.Node className='math-jax' inline formula={'0.0970%'} /> higher than the <MathJax.Node className='math-jax' inline formula={'%'} /> Oxygen.
+              Hydrogen, and Oxygen, with <MathJax.Node className='math-jax' inline formula={'80.42\\%'} /> carbon by mass. The exact <MathJax.Node className='math-jax' inline formula={'\\%'} /> of Hydrogen and Oxygen by mass could not be obtained,
+              but the <MathJax.Node className='math-jax' inline formula={'\\%'} /> Hydrogen is <MathJax.Node className='math-jax' inline formula={'0.0970\\%'} /> higher than the <MathJax.Node className='math-jax' inline formula={'\\%'} /> Oxygen.
             </p>
             <br />
             <p>
@@ -149,7 +212,7 @@ export default function partC() {
               <div>
                 <MathJax.Node className='math-jax' formula={`\\begin{aligned}
               m_{C}&=80.42 \\ g \\\\ \\\\
-              let \\ m_{O}&=x \\ g \\\\
+              let \\ m_{O}&=x \\ g \\\\ \\\\
               m_{H}&=x+0.0970 \\ g \\\\ \\\\
               EF=?
               \\end{aligned}
@@ -158,9 +221,8 @@ export default function partC() {
 
               <div>
                 <MathJax.Node className='math-jax' formula={`\\begin{aligned}
-              x+(x+10) \\ g 
-              &=100.0-80.42 \\ g \\\\
-              &=19.58 \\ g \\\\
+              x+(x+0.0970) \\ 
+              &=100.0-80.42 \\ \\\\
               x+(x+0.0970) &=19.58 \\\\
               2x+0.0970 &= 19.58 \\\\
               2x &= 19.48 \\\\
@@ -215,7 +277,7 @@ export default function partC() {
 
             <div className="columnsCentered">
               <MathJax.Node className='math-jax' inline formula={`\\begin{aligned}
-              n_{C}:n_{H}:n_{O}&=\\frac{6.696 \\ mol:9.740 \\ mol:0.6088 \\ mol}{0.6088 \\ mol} \\\\
+              n_{C}:n_{H}:n_{O}&=\\frac{6.696 \\ mol:9.740 \\ mol:0.6088 \\ mol}{0.6088 \\ mol} \\\\ \\\\
               &=11.00:16.00:1.000 
               \\end{aligned}`} />
             </div>
@@ -267,8 +329,8 @@ export default function partC() {
 
             <div className="columnsCentered">
               <MathJax.Node className='math-jax' formula={`\\begin{aligned}
-              \\frac{M_{MF}}{M_{EF}}&=\\frac{328.8 \\ \\frac{g}{mol}}{164.27 \\frac{g}{mol}} \\\\
-              &=2.002
+              \\frac{M_{MF}}{M_{EF}}&=\\frac{328.8 \\ \\frac{g}{mol}}{164.27 \\frac{g}{mol}} \\\\ \\\\
+              &=2.002 \\\\
               \\end{aligned}`} />
             </div>
 
@@ -278,7 +340,7 @@ export default function partC() {
           <div className="problem">
             <p>
               Type #4 - Alcoholic beverages interfere with the brain’s
-              communication pathways and makes it harder for the
+              communication pathways and make it harder for the
               areas of the brain involved in balance, coordination,
               memory, and speech to perform their jobs properly. Ethanol is the main
               substance in alcohol. Liquid Ethanol can react with acetic acid to
@@ -407,14 +469,14 @@ export default function partC() {
 
                 m_{NH_{4}NO_{3}}&=n_{NH_{4}NO_{3}}(m_{NH_{4}NO_{3}}) \\\\ \\\\
                 &=0.02617 \\ mol(80.06 \\ \\frac{g}{mol}) \\\\ \\\\
-                m_{NH_{4}NO_{3}}&=20.95 \\ g \\\\ \\\\ \\\\
+                m_{NH_{4}NO_{3}}&=2.095 \\ g \\\\ \\\\ \\\\
 
                 n_{H_{2}O}&=n_{N_{2}O}(\\frac{2 \\ mol \\ H_{2}O}{1 \\ mol \\ N_{2}O}) \\\\ \\\\
                 &=0.02617 \\ mol(\\frac{2 \\ mol \\ H_{2}O}{1 \\ mol \\ N_{2}O}) \\\\ \\\\
                 n_{H_{2}O}&=0.05234 \\ mol \\\\ \\\\ \\\\
 
                 V_{1} \\ H_{2}O&=\\frac{n_{H_{2}O}RT_{1}}{P_{1}} \\\\ \\\\
-                &=\\frac{0.05243 \\ mol(8.314 \\ \\frac{kPa \\cdot L}{mol \\cdot K})400.3 \\ K}{150.0 \\ kPa} \\\\ \\\\
+                &=\\frac{0.05243 \\ mol(8.314 \\ \\frac{kPa \\cdot L}{mol \\cdot K})(400.3 \\ K)}{150.0 \\ kPa} \\\\ \\\\
                 V_{1} \\ H_{2}O&=1.163 \\ L \\\\ \\\\ \\\\
 
                 V_{2} \\ H_{2}O&=\\frac{P_{1}(V_{1} \\ H_{2}O)T_{2}}{T_{1}P_{2}} \\\\ \\\\
@@ -427,6 +489,180 @@ export default function partC() {
 
           </div>
 
+          <div className="problem">
+            <p>Type #6 - Phosphorylation is a type of reaction in which a phosphate molecule reacts with an organic compound. This reaction commonly occurs in the brain and is an essential process for neuronal function and growth, regulating neurotransmitter release and helping nerve cell impulse propagation. The chemical equation for a phosphorylation reaction involving serine reacting with ATP to produce phosphoserine and ADP is given by the following chemical equation:</p>
+            <MathJax.Node className='math-jax' formula={'C_{3}H_{7}NO_{3} \\ (s)+C_{10}H_{16}N_{5}O_{13}P_{3} \\ (aq) \\rightarrow C_{3}H_{8}NO_{6}P \\ (s)+C_{10}H_{15}N_{5}O_{10}P_{2} \\ (aq)'} />
+            <p>If <MathJax.Node className='math-jax' inline formula={'4.13 \\ g'} /> of serine reacts with <MathJax.Node className='math-jax' inline formula={'0.644 \\ L'} /> of <MathJax.Node className='math-jax' inline formula={'0.0598 \\ \\frac{mol}{L}'} /> ATP solution, </p>
+            <br />
+
+            <p>(a) Identify the limiting reactant</p>
+            <br />
+
+            <div className="columns">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              m_{C_{3}H_{7}NO_{3}}&=4.13 \\ g \\\\
+              M_{C_{3}H_{7}NO_{3}}&=3(12.01)+7(1.01)+14.01+3(16.00) \\ \\frac{g}{mol} \\\\
+              &=105.11 \\ \\frac{g}{mol} \\\\ \\\\
+
+              V_{C_{10}H_{16}N_{5}O_{13}P_{3}}&=0.644 \\ L \\\\
+              C_{C_{10}H_{16}N_{5}O_{13}P_{3}}&=0.0598 \\ \\frac{mol}{L} \\\\ \\\\
+              
+              Limiting \\ reactant &= \\ ?
+              \\end{aligned}`} />
+
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n&=\\frac{m}{M} \\\\ \\\\
+              C&=\\frac{n}{V} \\\\ \\\\
+              n&=CV
+              \\end{aligned}`} />
+
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n_{C_{3}H_{7}NO_{3}}&=\\frac{m_{C_{3}H_{7}NO_{3}}}{M_{C_{3}H_{7}NO_{3}}} \\\\ \\\\
+              &=\\frac{4.13 \\ g}{105.11 \\ \\frac{g}{mol}} \\\\ \\\\
+              n_{C_{3}H_{7}NO_{3}}&=0.0393 \\ mol \\\\ \\\\\ \\\\
+
+              n_{C_{10}H_{16}N_{5}O_{13}P_{3}}&=C_{C_{10}H_{16}N_{5}O_{13}P_{3}}V_{C_{10}H_{16}N_{5}O_{13}P_{3}} \\\\ \\\\
+              &=0.0598 \\ \\frac{mol}{L}(0.644 \\ L) \\\\ \\\\
+              n_{C_{10}H_{16}N_{5}O_{13}P_{3}}&=0.0385 \\ mol
+              \\end{aligned}`} />
+            </div>
+
+            <br />
+
+            <p><MathJax.Node className='math-jax' inline formula={'n_{C_{3}H_{7}NO_{3}}'} /> and <MathJax.Node className='math-jax' inline formula={'n_{C_{10}H_{16}N_{5}O_{13}P_{3}}'} /> have a <MathJax.Node className='math-jax' inline formula={'1:1'} /> ratio, and so if <MathJax.Node className='math-jax' inline formula={'0.0393 \\ mol'} /> of <MathJax.Node className='math-jax' inline formula={'C_{3}H_{7}NO_{3}'} /> was reacted, then <MathJax.Node className='math-jax' inline formula={'0.0393 \\ mol'} /> of <MathJax.Node className='math-jax' inline formula={'C_{10}H_{16}N_{5}O_{13}P_{3}'} /> would be needed, but there is only <MathJax.Node className='math-jax' inline formula={'0.0385 \\ mol'} /> of it. </p>
+            <br />
+            <div className="columnsCentered">
+              <p><MathJax.Node className='math-jax' inline formula={'\\therefore C_{10}H_{16}N_{5}O_{13}P_{3}'} /> is the limiting reactant.</p>
+            </div>
+
+            <br />
+
+            <p>b) If the percent yield of <MathJax.Node className='math-jax' inline formula={'C_{3}H_{8}NO_{6}P'} /> is <MathJax.Node className='math-jax' inline formula={'87.3\\%'} />, what is the actual mass produced?</p>
+            <br />
+
+            <div className="columnsCentered">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n_{C_{10}H_{16}N_{5}O_{13}P_{3}}&=0.0385 \\ mol \\\\ \\\\
+              M_{C_{3}H_{8}NO_{6}P}&=3(12.01)+8(1.01)+14.01+6(16.00)+30.97 \\ \\frac{g}{mol} \\\\
+              &=185.09 \\ \\frac{g}{mol} \\\\ \\\\
+              \\% \\ yield&=87.3\\% \\\\ \\\\
+              Actual \\ yield&= \\ ?
+              \\end{aligned}`} />
+            </div>
+
+            <br />
+            <br />
+
+            <div className="columnsCentered">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n&=\\frac{m}{M} \\\\ \\\\
+              m&=nM \\\\  \\\\
+
+              \\frac{Actual \\ Yield}{Theoretical \\ Yield}(100\\%)&=Percent \\ Yield \\\\ \\\\ 
+              \\ Actual \\ Yield&=\\frac{Percent \\ Yield(Theoretical \\ Yield)}{100\\%}
+              \\end{aligned}`} />
+            </div>
+
+            <br />
+            <br />
+            <br />
+
+            <div className="columnsCentered">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n_{C_{3}H_{8}NO_{6}P}&=n_{C_{10}H_{16}N_{5}O_{13}P_{3}}(\\frac{1 \\ mol \\ C_{3}H_{8}NO_{6}P}{1 \\ mol \\ C_{10}H_{16}N_{5}O_{13}P_{3}}) \\\\ \\\\
+              n_{C_{3}H_{8}NO_{6}P}&=0.0385 \\ mol \\\\ \\\\ \\\\
+
+              m_{C_{3}H_{8}NO_{6}P}&=n_{C_{3}H_{8}NO_{6}P}M_{C_{3}H_{8}NO_{6}P} \\\\ \\\\
+              &=0.0385 \\ mol(185.09 \\ \\frac{g}{mol}) \\\\ \\\\
+              m_{C_{3}H_{8}NO_{6}P}&=7.13 \\ g \\\\ \\\\ \\\\
+
+              Theoretical \\ Yield&=7.13 \\ g \\\\ \\\\ \\\\
+
+              Actual \\ Yield&=\\frac{Percent \\ Yield(Theoretical \\ Yield)}{100\\%} \\\\ \\\\
+              &=\\frac{87.3\\%(7.13 \\ g)}{100\\%} \\\\ \\\\
+              Actual \\ Yield&=6.22 \\ g
+              \\end{aligned}`} />
+            </div>
+          </div>
+
+          <div className="problem">
+            <p>Type #7 - Headaches occur when nociceptors (pain-sensitive nerve endings) react to triggers that cause headaches and subsequently send messages to the thalamus, which is the brain’s relay station for pain. Aspirin, or acetylsalicylic acid, can be used to treat headaches. It can be produced from reacting salicylic acid with acetic anhydride to produce acetylsalicylic acid and acetic acid, as shown by this chemical equation:</p>
+            <MathJax.Node className='math-jax' formula={'C_{7}H_{6}O_{3}+C_{4}H_{6}O_{3} \\rightarrow C_{9}H_{8}O_{4}+C_{2}H_{4}O_{2}'} />
+
+            <p>a) Identify the limiting reagent if <MathJax.Node className='math-jax' inline formula={'74.41 \\ g'} /> of salicylic acid reacts with <MathJax.Node className='math-jax' inline formula={'52.52 \\ g'} /> of acetic anhydride </p>
+            <br />
+
+            <div className="columnsCentered">
+              <p><i>Chemical equation already balanced</i></p>
+            </div>
+            <br />
+
+
+            <div className="columns">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              m_{C_{7}H_{6}O_{3}}&=74.41 \\ g \\\\
+              M_{C_{7}H_{6}O_{3}}&=7(12.01)+6(1.01)+3(16.00) \\ \\frac{g}{mol} \\\\
+              &=138.13 \\ \\frac{g}{mol} \\\\ \\\\
+              m_{C_{4}H_{6}O_{3}}&=52.52 \\ g \\\\
+              M_{C_{4}H_{6}O_{3}}&=4(12.01)+6(1.01)+3(16.00) \\ \\frac{g}{mol} \\\\
+              &=102.10 \\ \\frac{g}{mol} \\\\ \\\\
+              Limiting \\ reagent&= \\ ?
+              \\end{aligned}`} />
+
+              <MathJax.Node className='math-jax' formula={'n=\\frac{m}{M}'} />
+
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n_{C_{7}H_{6}O_{3}}&=\\frac{m_{C_{7}H_{6}O_{3}}}{M_{C_{7}H_{6}O_{3}}} \\\\ \\\\
+              &=\\frac{74.41 \\ g}{138.13 \\ \\frac{g}{mol}} \\\\ \\\\
+              n_{C_{7}H_{6}O_{3}}&=0.5387 \\ mol \\\\ \\\\ \\\\
+
+              n_{C_{4}H_{6}O_{3}}&=\\frac{m_{C_{4}H_{6}O_{3}}}{M_{C_{4}H_{6}O_{3}}} \\\\ \\\\
+              &=\\frac{52.52 \\ g}{102.10 \\ \\frac{g}{mol}} \\\\ \\\\
+              n_{C_{4}H_{6}O_{3}}&=0.5144 \\ mol
+              \\end{aligned}`} />
+            </div>
+
+            <br />
+            <p>If <MathJax.Node className='math-jax' inline formula={'5.387 \\ mol'} /> of <MathJax.Node className='math-jax' inline formula={'C_{7}H_{6}O_{3}'} /> reacted,
+              then because they have a <MathJax.Node className='math-jax' inline formula={'1:1'} /> ratio, <MathJax.Node className='math-jax' inline formula={'5.387 \\ mol'} /> of <MathJax.Node className='math-jax' inline formula={'C_{4}H_{6}O_{3}'} /> would be needed.
+              However, there is only <MathJax.Node className='math-jax' inline formula={'5.144 \\ mol'} /> of <MathJax.Node className='math-jax' inline formula={'C_{4}H_{6}O_{3}'} />, and
+              so <MathJax.Node className='math-jax' inline formula={'C_{4}H_{6}O_{3}'} /> is the limiting reagent.</p>
+            <br />
+
+            <p>b) What is the maximum mass of Aspirin that can be produced?</p>
+            <br />
+
+            <p>The number of <MathJax.Node className='math-jax' inline formula={'moles'} /> of <MathJax.Node className='math-jax' inline formula={'C_{4}H_{6}O_{3}'} /> dictates the amount of product produced because it is the limiting reagent. </p>
+            <br />
+
+            <div className="columns">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n_{C_{4}H_{6}O_{3}}&=0.5144 \\ mol \\\\ \\\\
+              
+              M_{C_{9}H_{8}O_{4}}&=9(12.01)+8(1.01)+4(16.00) \\ \\frac{g}{mol} \\\\
+              &=180.17 \\ \\frac{g}{mol} \\\\ \\\\
+
+              m_{C_{9}H_{8}O_{4}}&= \\ ?
+              \\end{aligned}`} />
+
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n=\\frac{m}{M} \\\\ \\\\
+              m=nM
+              \\end{aligned}`} />
+
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n_{C_{9}H_{8}O_{4}}&=n_{C_{4}H_{6}O_{3}}(\\frac{1 \\ mol \\ C_{9}H_{8}O_{4}}{1 \\ mol \\ C_{4}H_{6}O_{3}}) \\\\ \\\\
+              &=0.5144 \\ mol \\ C_{4}H_{6}O_{3}(\\frac{1 \\ mol \\ C_{9}H_{8}O_{4}}{1 \\ mol \\ C_{4}H_{6}O_{3}}) \\\\ \\\\
+              n_{C_{9}H_{8}O_{4}}&=0.5144 \\ mol \\\\ \\\\ \\\\
+              
+              m_{C_{9}H_{8}O_{4}}&=n_{C_{9}H_{8}O_{4}}M_{C_{9}H_{8}O_{4}} \\\\ \\\\
+              &=0.5144 \\ mol(180.17 \\ \\frac{g}{mol}) \\\\ \\\\
+              m_{C_{9}H_{8}O_{4}}&=92.68 \\ g
+              \\end{aligned}`} />
+            </div>
+
+          </div>
+
 
 
 
@@ -435,183 +671,3 @@ export default function partC() {
     </MathJax.Provider>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

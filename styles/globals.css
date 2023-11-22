@@ -115,7 +115,7 @@ a {
   max-width: 900px;
   background-color: white;
   padding: 10px;
-  padding-bottom: 300px;
+  padding-bottom: 50px;
 }
 
 .mainContainer h1 {
@@ -165,4 +165,17 @@ a {
 .brainImage {
   width: 500px;
   margin-bottom: 75px;
+}
+
+.testSectionHeader {
+  color:rgb(73, 153, 223);
+  text-decoration: underline;
+}
+
+.brainColour {
+  color:rgb(241, 137, 152)
+}
+
+li {
+  margin-bottom: 15px;
 }
