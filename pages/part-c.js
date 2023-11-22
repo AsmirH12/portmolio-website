@@ -14,9 +14,8 @@ export default function partC() {
           </div>
 
           <h2 className="testSectionHeader">
-            Moletiple Choice
+            Moletiple Choice (5 x 1 pt. each = 5 pts.)
           </h2>
-
 
           <div className="problem">
             <p>1. What is the percent composition by mass of carbon in gamma-aminobutyric acid (<MathJax.Node className='math-jax' inline formula={'C_{4}H_{9}NO_{2}'} />), an amino acid and inhibitory neurotransmitter known for creating a calming effect by slowing down signals in your central nervous system?</p>
@@ -27,6 +26,30 @@ export default function partC() {
               <li><MathJax.Node className='math-jax' inline formula={'23.3 \\%'} /></li>
               <li className="correct-choice"><MathJax.Node className='math-jax' inline formula={'46.6\\%'} /></li>
             </ol>
+
+            <div className="columnsCentered">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              M_{C_{4}}&=4(M_{C}) \\\\ \\\\
+              &=4(12.01 \\ \\frac{g}{mol}) \\\\ \\\\
+              &=48.04 \\ \\frac{g}{mol}
+              \\end{aligned}`} />
+
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              M_{C_{4}H_{9}NO_{2}} &= 4(M_{C})+9(M_{H})+M_{N}+2(M_{O}) \\\\ \\\\
+              &=4(12.01)+9(1.01)+14.01+2(16.00) \\ \\frac{g}{mol} \\\\ \\\\
+              &=103.14 \\ \\frac{g}{mol}
+              \\end{aligned}`} />
+            </div>
+
+            <br />
+
+            <div className="columnsCentered">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              \\% \\ composition \\ of \\ Carbon&=\\frac{M_{C_{4}}}{M_{C_{4}H_{9}NO_{2}}}(100\\%) \\\\ \\\\
+              &=\\frac{48.04 \\ \\frac{g}{mol}}{103.14 \\ \\frac{g}{mol}}(100\\%) \\\\ \\\\
+              \\% \\ composition \\ of \\ Carbon&=46.6\\%
+              \\end{aligned}`} />
+            </div>
           </div>
 
           <div className="problem">
@@ -38,6 +61,18 @@ export default function partC() {
               <li ><MathJax.Node className='math-jax' inline formula={'20.4 \\ mol'} /></li>
               <li><MathJax.Node className='math-jax' inline formula={'8.64 \\ mol'} /></li>
             </ol>
+
+            <div className="columnsCentered">
+              <MathJax.Node className='math-jax' formula={'n=\\frac{m}{M}'} />
+
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n_{C_{10}H_{12}N_{2}O}&=\\frac{m_{C_{10}H_{12}N_{2}O}}{M_{C_{10}H_{12}N_{2}O}} \\\\ \\\\
+              &=\\frac{20.4 \\ g}{10(M_{C})+12(M_{H})+2(M_{N})+M_{O}} \\\\ \\\\
+              &=\\frac{20.4 \\ g}{10(12.01)+12(1.01)+2(14.01)+16.00 \\ \\frac{g}{mol}} \\\\ \\\\
+              &=\\frac{20.4 \\ g}{176.24 \\ \\frac{g}{mol}} \\\\ \\\\
+              n_{C_{10}H_{12}N_{2}O}&=0.116 \\ mol
+              \\end{aligned}`} />
+            </div>
           </div>
 
           <div className="problem">
@@ -49,10 +84,14 @@ export default function partC() {
               <li >Stay the same</li>
               <li>Depends on the amount of pressure and temperature change</li>
             </ol>
+
+            <br />
+
+            <p>According to Boyle's Law, pressure is inversely proportional to volume, so the decrease in pressure increases the volume. By Charles' Law, temperaure is directly proportional to volume, so the increase in temperature also increases volume. Overall, the volume increases and so the density would decrease.</p>
           </div>
 
           <div className="problem">
-            <p>4. Cerebrospinal fluid, is a clear watery fluid surrounding the nervous system. It  is composed of various aqueous ionic compounds in small amounts, with <MathJax.Node className='math-jax' inline formula={'NaCl'} /> being the most abundant salt. <MathJax.Node className='math-jax' inline formula={'NaCl'} /> can react with lead nitrate, as shown by this chemical equation: </p>
+            <p>4. Cerebrospinal fluid is a clear watery fluid surrounding the nervous system. It is partially composed of various aqueous ionic compounds in small amounts, with <MathJax.Node className='math-jax' inline formula={'NaCl'} /> being the most abundant salt. <MathJax.Node className='math-jax' inline formula={'NaCl'} /> can react with lead nitrate, as shown by this chemical equation: </p>
             <MathJax.Node className='math-jax' formula={'2NaCl \\ (aq)+Pb(NO_{3})_{2} \\ (aq) \\rightarrow 2NaNO_{3} \\ (aq)+PbCl_{2} \\ (s)'} />
             <p>How many moles of lead chloride precipitate are produced when <MathJax.Node className='math-jax' inline formula={'11.0 \\ L'} /> of <MathJax.Node className='math-jax' inline formula={'0.500 \\ \\frac{mol}{L}'} /> <MathJax.Node className='math-jax' inline formula={'NaCl'} /> solution is mixed with <MathJax.Node className='math-jax' inline formula={'12.0 \\ L'} /> of <MathJax.Node className='math-jax' inline formula={'0.250 \\ \\frac{mol}{L}'} /> lead nitrate solution?</p>
             <br />
@@ -62,6 +101,42 @@ export default function partC() {
               <li ><MathJax.Node className='math-jax' inline formula={'6.00 \\ mol'} /></li>
               <li><MathJax.Node className='math-jax' inline formula={'1.50 \\ mol'} /></li>
             </ol>
+
+            <div className="columnsCentered">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              C&=\\frac{n}{V} \\\\ \\\\
+              n&=CV
+              \\end{aligned}`} />
+
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n_{NaCl}&=C_{NaCl}V_{NaCl} \\\\ \\\\
+              &=0.500 \\ \\frac{mol}{L}(11.0 \\ L) \\\\ \\\\
+              n_{NaCl}&=5.50 \\ mol \\\\ \\\\ \\\\
+
+              n_{Pb(NO_{3})_{2}}&=C_{Pb(NO_{3})_{2}}V_{Pb(NO_{3})_{2}} \\\\ \\\\
+              &=0.250 \\ \\frac{mol}{L}(12.0 \\ L) \\\\ \\\\
+              n_{Pb(NO_{3})_{2}}&=3.00 \\ mol
+              \\end{aligned}`} />
+            </div>
+
+            <br />
+
+            <p>
+              If all of the <MathJax.Node className='math-jax' inline formula={'3.00 \\ mol'} /> of <MathJax.Node className='math-jax' inline formula={'Pb(NO_{3})_{2}'} /> were to react, then <MathJax.Node className='math-jax' inline formula={'6.00 \\ mol'} /> of <MathJax.Node className='math-jax' inline formula={'NaCl'} /> would be
+              needed because the moles of the compounds are in a <MathJax.Node className='math-jax' inline formula={'1:2'} /> ratio. However,
+              there is only <MathJax.Node className='math-jax' inline formula={'5.50 \\ mol'} /> of <MathJax.Node className='math-jax' inline formula={'NaCl'} /> available, which means that <MathJax.Node className='math-jax' inline formula={'NaCl'} /> is the limiting reactant and will dictate the number of moles of <MathJax.Node className='math-jax' inline formula={'PbCl_{2}'} /> produced.
+            </p>
+
+            <br />
+
+            <div className="columnsCentered">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              n_{PbCl_{2}}&=n_{NaCl}(\\frac{1 \\ mol \\ PbCl_{2}}{2 \\ mol \\ NaCl}) \\\\ \\\\
+              &=5.50 \\ mol \\ NaCl(\\frac{1 \\ mol \\ PbCl_{2}}{2 \\ mol \\ NaCl}) \\\\ \\\\
+              n_{PbCl_{2}}&=2.75 \\ mol
+              \\end{aligned}`} />
+            </div>
+
           </div>
 
           <div className="problem">
@@ -73,10 +148,25 @@ export default function partC() {
               <li className="correct-choice"><MathJax.Node className='math-jax' inline formula={'1.54 \\ \\frac{g}{L}'} /></li>
               <li><MathJax.Node className='math-jax' inline formula={'0.821 \\ \\frac{g}{L}'} /></li>
             </ol>
+
+            <div className="columnsCentered">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              PV&=nRT \\\\ \\\\
+              PV&=\\frac{m}{M}RT \\\\ \\\\
+              MPV&=mRT \\\\ \\\\
+              \\frac{m}{V}&=\\frac{MP}{RT}
+              \\end{aligned}`} />
+
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+              \\rho_{_{NO}}&=\\frac{M_{NO}(P_{NO})}{RT_{NO}} \\\\ \\\\
+              &=\\frac{30.01 \\ \\frac{g}{mol}(128 \\ kPa)}{8.314 \\ \\frac{kPa \\ \\cdot \\ L}{mol \\ \\cdot \\ K}(300 \\ K)} \\\\ \\\\
+              \\rho_{_{NO}}&=1.54 \\ \\frac{g}{L}
+              \\end{aligned}`} />
+            </div>
           </div>
 
           <h2 className="testSectionHeader">
-            Long Answer
+            Long Answer (7 x 5 points each = 35 pts.)
           </h2>
 
           <div className="problem">
@@ -427,7 +517,7 @@ export default function partC() {
 
             <br />
 
-            <div className="columns">
+            <div className="columnsCentered">
               <div>
                 <MathJax.Node className='math-jax' formula={`\\begin{aligned}
                 V_{{N_{2}O}}&=580.7 \\ mL(\\frac{1 \\ L}{1000 \\ mL}) \\\\
@@ -457,9 +547,12 @@ export default function partC() {
                 V_{2}&=\\frac{P_{1}V_{1}T_{2}}{T_{1}P_{2}}
                 \\end{aligned}`} />
               </div>
+            </div>
 
-              <div>
-                <MathJax.Node className='math-jax' formula={`\\begin{aligned}
+            <br />
+
+            <div className="columnsCentered">
+              <MathJax.Node className='math-jax' formula={`\\begin{aligned}
                 n_{N_{2}O}&=\\frac{P_{1}(V_{N_{2}O})}{RT_{1}} \\\\ \\\\
                 &=\\frac{150.0 \\ kPa(0.5807 \\ L)}{8.314 \\ \\frac{kPa \\cdot L}{mol \\cdot K}(400.3 \\ K)} \\\\ \\\\
                 n_{N_{2}O}&=0.02617 \\ mol \\\\ \\\\ \\\\
@@ -484,7 +577,6 @@ export default function partC() {
                 V_{2} \\ H_{2}O&=1.110 \\ L  
                 
                 \\end{aligned}`} />
-              </div>
             </div>
 
           </div>

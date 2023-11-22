@@ -229,7 +229,7 @@ export default function partA() {
 
           <br />
 
-          <p>In my explanation I only talked about Charles' Law and failed to recognize that Guy-Lessac's Law is also at play. It states that pressure is directly proportional to temperature, so when temperature increases when it is hot, the pressure of the air in bike tires also increases. At the particle level, the particles gain kinectic energy and collide with the inner sides of the tires in higher frequencies and more force, thereby increasing pressure.</p>
+          <p>In my explanation I only talked about Charles' Law and failed to recognize that Guy-Lussac's Law is also at play. It states that pressure is directly proportional to temperature, so when temperature increases when it is hot, the pressure of the air in bike tires also increases. At the particle level, the particles gain kinectic energy and collide with the inner sides of the tires in higher frequencies and more force, thereby increasing pressure.</p>
 
           <br />
           <h2 className={styles.test}>Quiz #3 - Stoichiometry</h2>
